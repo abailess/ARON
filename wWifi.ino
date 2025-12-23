@@ -9,9 +9,9 @@
 
 // Wi-Fi credentials
 const char* ssid = "Wifi_Tara_Scientist";       // Your WiFi SSID
-const char* password = "Tara@Scientist2023";    // Your WiFi password
+const char* password = "Password";    // Your WiFi password
 
-WiFiServer server(4069); // create a server on port 69
+WiFiServer server(4002); // create a server on port X
 
 // Set up NTP
 WiFiUDP udp;
@@ -53,7 +53,7 @@ void setup() {
   Wire.begin();
   selectMuxChannel(0);
   if (!bno.begin()) {
-    Serial.println("Ooops, no BNO055 detected ... Check your wiring or I2C ADDR!");
+    Serial.println("No BNO055 detected ... Check your wiring or I2C ADDR!");
     while (1);
   }
 
