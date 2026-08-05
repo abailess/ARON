@@ -2,7 +2,7 @@
 
 Includes...
 
-OCEAN-EYE: Oregon Coastal Environments Autonomous Network for Ecosystem Yield Evaluation
+OCEAN-EYE: Ocean and Coastal Environments Autonomous Network for Ecosystem Yield Evaluation
 
 - Arduino code for 3 radiometer complex (downwelling irradiance, diffuse skylight radiance, upwelling radiance) for ESP32 and 3 MKR0's running the Hammamatsu C12880ma. MKR code is using GroupGets breakout board for the hammamtsu. 
 
